@@ -28,7 +28,7 @@
 
 // //Splice method of Array
 // var irr=["User_Name","User_Email",1234567890]
-// console.log(irr.splice(0,1,"UserName"));
+// console.log(irr.splice(0,1,"UserName","UserName2"));
 // console.log(irr);
 
 // //Slice method of Array
@@ -121,7 +121,7 @@
 // }));
 // console.log(vrr);
 
-//reduce method of Array
+// //reduce method of Array
 // var wrr = [10, 15, 20, 4, 55, 67, 89]
 // function myfun(total,wrr) {
 //     return total-wrr
