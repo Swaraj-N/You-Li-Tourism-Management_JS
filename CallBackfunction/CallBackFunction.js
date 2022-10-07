@@ -1,9 +1,7 @@
-function add(a,b){
-    console.log("Performing Addition");
+function addition(a,b){
     return a+b
 }
-function sub(a,b){
-    console.log("Performing Subtraction");
+function substraction(a,b){
     if(a>b){
         return a-b
     }
@@ -11,12 +9,10 @@ function sub(a,b){
         return b-a
     }
 }
-function mul(a,b){
-    console.log("Performing Multiplication");
+function multiplication(a,b){
     return a*b
 }
-function div(a,b){
-    console.log("Performing Division");
+function division(a,b){
     if(a>b){
         return a/b
     }
@@ -31,8 +27,8 @@ function performOperation(a,b,operation){
     console.log(result);
     console.log("Function Ended");
 }
-performOperation(8,4,add)
-performOperation(8,4,mul)
-performOperation(8,4,sub)
-performOperation(8,4,div)
+performOperation(8,4,addition)
+performOperation(8,4,multiplication)
+performOperation(8,4,substraction)
+performOperation(8,4,division)
 
